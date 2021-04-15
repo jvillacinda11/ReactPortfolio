@@ -18,7 +18,7 @@ const App = () => {
           <nav className="navbar navbar-expand-sm navbar-dark bg-dark">
             <div className="container-fluid">
               {/* <a className="navbar-brand" href="./index.html">Home</a> */}
-              <Link to='/' className= 'navbar-brand'>Home </Link>
+                <Link to='/reactportfolio' className= 'navbar-brand'>Home </Link>
 
               <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
                 aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -27,8 +27,8 @@ const App = () => {
               <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div className="navbar-nav">
                   {/* <a className="nav-link active" aria-current="page" href="./portfolio.html">Portfolio</a> */}
-          <Link to='/portfolio' className= "nav-link active" aria-current= "page">Portfolio</Link>
-          <Link to='/contact' className= "nav-link">Contact </Link>
+                    <Link to='/reactportfolio/portfolio' className= "nav-link active" aria-current= "page">Portfolio</Link>
+                    <Link to='/reactportfolio/contact' className= "nav-link">Contact </Link>
 
                   {/* <a className="nav-link" href="./contact.html">Contact Me</a> */}
 
@@ -38,13 +38,13 @@ const App = () => {
           </nav>
         </div>
       <Switch>
-        <Route exact path= '/'>
+        <Route exact path= '/reactportfolio'>
           <Home />
         </Route>
-        <Route path= '/portfolio'>
+        <Route path= '/reactportfolio/portfolio'>
           <Portfolio />
         </Route>
-        <Route path = '/contact'>
+        <Route path = '/reactportfolio/contact'>
           <Contact/>
         </Route>
       </Switch>
