@@ -6,11 +6,13 @@ const Home = () => {
       <div className="container">
         <div className="row justify-content-around">
           <div className="col-4-sm">
-            <div className="frontText">Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus sunt libero possimus! Sequi nemo quia natus voluptatum hic, eaque nulla eos illum accusantium rerum porro nisi animi temporibus doloremque? Labore!</div>
+            <br />
+              <h3 className="frontText">Hello my name is Jose E Villacinda! I am a web developer that enjoys to work collaboratively to solve complex issues and to bring a great user experience. </h3>
           </div>
-          <div className="col-4-sm">
-            <div className="frontText">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia incidunt amet at numquam, vel animi dolore totam culpa quidem voluptatem minus, nam possimus, harum nobis repellendus voluptatum reprehenderit corporis molestiae!</div>
-          </div>
+          <br />
+          <h3 className="col-4-sm">
+            <div className="frontText">My technical skills include knowledge and proven use of HTML, CSS, JavaScript, Express, MySql, MongoDb, React, Passport among others. Click</div>
+          </h3>
         </div>
       </div>
     </div>
